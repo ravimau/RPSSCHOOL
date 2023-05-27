@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+a:hover{
+    color:rgb(224, 79, 79) !important;
+    transition: 0.5s;
+}
+p{text-align: justify;}
+/* Tophead Section Start */
+.tophead{
+    height: 40px;
+    line-height: 35px;
+    background-color: #1489e5;
+}
+.tophead ul>li>a{
+    color: #fff;
+    font-weight: 500;
+    font-weight: 13px;
+}
+/* Tophead Section End */
+
+/* Inner-banner Section Start */
+.inner-banner{
+    background-image: url(../img/background.jpg);
+    height: 270px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+/* Inner-banner Section End */
+label{font-weight: bold;}
+/* Footer Section Start */
+#lin li a{color: white;}
+/* Footer Section End */
